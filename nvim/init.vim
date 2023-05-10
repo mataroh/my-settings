@@ -3,8 +3,8 @@ call plug#begin()
 	Plug 'vim-airline/vim-airline' " modifica a barra de estado para deixá-la mais agradável que a versão padrão.
 	Plug 'vim-airline/vim-airline-themes'
 	Plug 'preservim/nerdtree'
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  	Plug 'junegunn/fzf.vim'
 	Plug 'ryanoasis/vim-devicons' " mostra ícones na interface, baseado em fontes de ícone.
 	Plug 'sheerun/vim-polyglot' " pacote de sintaxes para diversas linguagens de programação.
 	Plug 'jiangmiao/auto-pairs' " fecha automaticamente os parênteses, colchetes e chaves ao digitar.
