@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="eastwood"
+ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -85,6 +85,8 @@ plugins=(
 	history
 	web-search
 	command-time
+	zsh-z
+	you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -123,6 +125,12 @@ alias ..='cd ..'
 alias hsi='history | grep'
 alias list='lsof -n -P -i | grep'
 alias pes='ps -aux | grep'
+alias chat='shell-genie ask'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Created by `pipx` on 2023-05-09 13:19:40
+export PATH="$PATH:/home/henrique.mataro/.local/bin"
+
+export EDITOR="nvim"
