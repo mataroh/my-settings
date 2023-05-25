@@ -16,11 +16,11 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias ls='lsd'
-alias l='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
-alias lt='ls --tree'
+alias ls='exa'
+alias l='exa -l'
+alias la='exa -a'
+alias lla='exa -la'
+alias lt='exa --tree'
 alias ..='cd ..'
 alias hsi='history | grep'
 alias pes='ps -aux | grep'
