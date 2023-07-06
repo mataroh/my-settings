@@ -1,3 +1,3 @@
 # My-settins
 
-Esse arquivos foram baseados no Fedora 37/38.
+Esses arquivos foram baseados no Fedora 37/38.
