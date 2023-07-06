@@ -130,6 +130,5 @@ alias chat='shell-genie ask'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Created by `pipx` on 2023-05-09 13:19:40
-export PATH="$PATH:/home/henrique.mataro/.local/bin"
-
+export PATH="$PATH:/home/$USER/.local/bin"
 export EDITOR="nvim"
