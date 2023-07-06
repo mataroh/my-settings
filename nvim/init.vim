@@ -18,8 +18,6 @@ call plug#begin()
 	Plug 'roosta/srcery'
 	Plug 'joshdick/onedark.vim'
 	Plug 'sjl/badwolf'
-
-		
 call plug#end()
 
 " Option
@@ -73,5 +71,4 @@ let g:airline_symbols.maxlinenr = '☰ '
 let g:airline_symbols.dirty='⚡'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-
 let NERDTreeShowHidden=1
